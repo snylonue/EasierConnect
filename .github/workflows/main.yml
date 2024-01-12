@@ -11,6 +11,7 @@ on:
       - "go.mod"
       - "go.sum"
       - ".github/workflows/*.yml"
+  workflow_dispatch:
 
 permissions: write-all
 
